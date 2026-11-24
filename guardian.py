@@ -134,8 +134,8 @@ def evaluate(dmarc, spf, dkim):
 def main():
     parser = argparse.ArgumentParser(description="TAVARDT Australia: Email Security DNS Auditor (DMARC, SPF, DKIM)")
     parser.add_argument("domain", help="Target domain to inspect")
-    parser.add_argument("--selector", default="default", help="DKIM selector to verify")
-    parser.add_argument("--json", action="store_true", help="Output results in JSON format")
+    parser.add_argument("-s", "--selector", default="default", help="DKIM selector to verify")
+    parser.add_argument("-j", "--json", action="store_true", help="Output results in JSON format")
     args = parser.parse_args()
 
     domain = args.domain.strip()
