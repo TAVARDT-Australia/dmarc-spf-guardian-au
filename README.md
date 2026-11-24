@@ -5,7 +5,7 @@
 
 DNS email authentication auditor for spoofing mitigation, sender verification, and alignment with ACSC Essential Eight and ISM controls.
 
-Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT Australia**.
+Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT**.
 
 ***
 
@@ -42,13 +42,13 @@ python guardian.py enterprise.com.au -selector mail -json
 For continuous perimeter monitoring and graphical reporting, access the official web diagnostic suite:
 
 * **DMARC and Email Authentication Checker**
-* **TAVARDT Australia Corporate Portal**
+* **TAVARDT Corporate Portal**
 
 ***
 
 ## Enterprise Defense Consulting
 
-For dedicated cybersecurity architecture, threat modeling, and incident readiness in Australia, contact **TAVARDT Australia**.
+For dedicated cybersecurity architecture, threat modeling, and incident readiness in Australia, contact **TAVARDT**.
 
 ***
 
